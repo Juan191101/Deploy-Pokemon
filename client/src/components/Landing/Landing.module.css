@@ -1,0 +1,58 @@
+.divContainer{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.gifer.com/IFRv.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.divContainer button{
+    width: 190px;
+    background-color: #6d78c8cd;
+    color: #fbd500; /* Cambia #ff0000 por el color que desees utilizar */
+    font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+    font-size: 15px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    text-shadow:10px solid blue;
+    padding: 0.8rem 1.7rem;
+    border: 2px solid grey;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.divContainer button:hover {
+
+    background-color: #fbd500;
+    color: #6d78c8cd;
+  }
+
+  .divContainer h1 {
+    background-color: #fff8d183;
+    color: #6d78c8cd;
+    font-size: 90px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: .3em;
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-bottom: 30%;
+    }
+  
+    to {
+      margin-top: 0%;
+    }
+  }

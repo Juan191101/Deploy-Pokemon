@@ -1,0 +1,48 @@
+.divContainer{
+    display: flex;
+    margin: 0px;
+    padding: 0.5em;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.img{
+
+    height: 60px;
+    width: 180px;
+    margin-left: -84%;
+    position: absolute;
+}
+
+.divContainer button{
+        width: 120px;
+        height: 50px;
+        margin-left: 75%;
+        background-color: #6d78c8cd;
+        color: #fbd500; /* Cambia #ff0000 por el color que desees utilizar */
+        font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+        font-size: 17px; /* Ajusta el tamaño de fuente según tus preferencias */
+        font-weight: bold;
+        text-shadow:10px solid blue;
+        padding: 0.8rem 1.7rem;
+        border: 2px solid grey;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.4);
+        position: relative;
+        margin-bottom: 5px;
+
+    }
+
+    .divContainer button:hover {
+ 
+        background-color: #fbd500;
+        color: #6d78c8cd;
+        width: 130px;
+        height: 60px;
+
+      }
+
+    

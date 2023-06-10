@@ -1,0 +1,96 @@
+.divContainer{
+  position: relative;
+background-image: url("../../assets/paisaje.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+  align-items: center;  
+margin-left: 70%;
+text-shadow:10px solid rgb(4, 4, 4);
+
+}
+
+.textC{
+  background-color: rgba(197, 0, 0, 0.765);
+    color: #fff;
+    height: 34px;
+    width: 580px;
+    border-radius: 5px;
+    font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+    font-size: 25px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    cursor: crosshair;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 7px;
+    margin-left: 26%;
+    text-shadow:10px solid rgb(4, 4, 4);
+
+}
+.textCc{
+  background-color: rgba(197, 0, 0, 0.765);
+    color: #fff;
+    height: 34px;
+    width: 580px;
+    border-radius: 5px;
+    font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+    font-size: 25px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    cursor: crosshair;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 17px;
+    text-shadow:10px solid rgb(4, 4, 4);
+
+    margin-left: 26%;}
+
+.textT{
+  background-color: rgba(197, 0, 0, 0.765);
+    color: #fff;
+    height: 74px;
+    width: 580px;
+    border-radius: 5px;
+    font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+    font-size: 25px; /* Ajusta el tamaño de fuente según tus preferencias */
+    font-weight: bold;
+    cursor: crosshair;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 7px;
+    margin-left: 26%;
+    align-items: center;
+    text-shadow:10px solid rgb(4, 4, 4);
+}
+.type {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-right: 4px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .divContainer{
+margin: 0;  }
+
+.divContainer button{
+  width: 190px;
+  margin-left: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ff0000cd;
+  color: #ffffff; /* Cambia #ff0000 por el color que desees utilizar */
+  font-family: "Pokemon Font", sans-serif; /* Cambia "Pokemon Font" por la fuente que desees utilizar */
+  font-size: 35px; /* Ajusta el tamaño de fuente según tus preferencias */
+  font-weight: bold;
+  text-shadow:10px solid rgb(255, 0, 0);
+  padding: 0.8rem 1.7rem;
+  border: 2px solid grey;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.img{
+  height: 30%;
+  width: 30%;
+}

@@ -1,0 +1,26 @@
+.container {
+  justify-content: space-evenly;
+  background-color: #5df3af;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 98vw; /* Ocupa todo el ancho de la ventana */
+  height: 100vh; /* Ocupa todo el alto de la ventana */
+  background-image: url('../../assets/8hQd.gif');
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el área */
+  background-position:  center; /* Centra la imagen de fondo */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  margin: 0;
+}
+
+  .container_about {
+    margin: 20px;
+    padding: 50px;
+    background: #00000053;
+    width: 100%;
+    border-radius: 32px;
+    display: flex;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+  }
