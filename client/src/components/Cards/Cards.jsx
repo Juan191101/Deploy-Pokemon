@@ -5,6 +5,7 @@ import Paginate from "../Paginate/Paginate";
 import SearchBar from "../SearchBar/SearchBar";
 import style from "./Cards.module.css";
 import { useDispatch, useSelector } from "react-redux";
+// eslint-disable-next-line
 import { getPokemons, setFilteredPokemons, setSelectedType } from "../../redux/actions";
 import OriginFilter from "../Filters/OriginFilter";
 import OrderAttack from "../Filters/OrderAttack";
@@ -17,8 +18,11 @@ const Cards = () => {
   const itemsPerPage = 12;
 
   const dispatch = useDispatch();
+  // eslint-disable-next-line
   const [selectedType, setSelectedType] = useState("");
+  // eslint-disable-next-line
   const [showOrder, setShowOrder] = useState(false);
+  // eslint-disable-next-line
   const [showFilter, setShowFilter] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [showOrderings, setShowOrderings] = useState(false);

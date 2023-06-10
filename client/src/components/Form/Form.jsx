@@ -34,9 +34,9 @@ const Form = () => {
   const dispatch = useDispatch();
   const history = useHistory();
 
+  
   React.useEffect(() => {
     dispatch(allTypes());
-    validate();
   }, [dispatch]);
   
 
@@ -70,7 +70,7 @@ const Form = () => {
 
     validate(name, value); // Llamada a la función validate
 
-    console.log(form);
+   // console.log(form);
   };
 
   const submitHandler = async (event) => {
